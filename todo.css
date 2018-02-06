@@ -1,0 +1,115 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	background: #f9f9f9;
+}
+.header{
+	background: #DC143C;
+	margin: -1.5% 2% 0 2%;
+	border-radius: 10px;
+}
+.banner{
+	width: 100%;
+	height: 100px;
+}
+.list{
+	margin-left: 3%;
+	margin-right: 11%;	
+}
+h1{
+	color: #DCDCDC;
+}
+input{
+	width: 80%;	
+	border-radius: 5px;
+	height: 50px;
+	font-size: 22px;
+	font-family: arial;
+	padding-left: 12px;
+}
+
+.addBtn{
+	width: inherit;
+	height: 50px;
+	border-radius: 5px;
+	font-size: inherit;
+	font-weight: bolder;
+	font-family: arial;
+	cursor: pointer;
+	color: #2F4F4F;
+}
+.addBtn:hover{
+	background: #DCDCDC;
+	color: #2F4F4F;
+}
+ol,li{
+	width: 100%;
+	text-align: left;
+	float: left;
+	cursor: pointer;
+	//list-style-type: none;
+	font-size: 20px;
+	font-family: arial;
+}
+ol li:nth-child(odd) {
+  background: #f7d2d9;
+	margin-top: 5px;
+}
+ol li:nth-child(even) {
+  background: #DCDCDC;
+	margin-top: 5px;
+}
+ol li:hover {
+  background: #E0FFFF;
+	margin-bottom: 1px;
+}
+.close{
+	float: right;
+	color: white;
+  width: initial;
+	height: 30px;
+	font-size-adjust: 0.58;
+	font-weight: bold;
+	background: #DC143C;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+
+}
+.close:hover{
+	background: #ee4466;
+}
+.done{
+	float: right;
+	color: white;
+  width: initial;
+	height: 30px;
+	//font-size: 18px;
+	font-size-adjust: initial;
+	font-weight: bold;
+	background: #3CB371;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+
+}
+.done:hover{
+	background: #00FA9A;
+}
+.edit{
+	float: right;
+	color: white;
+  //width: 10%;
+	width: initial;
+	height: 30px;
+	font-size-adjust: initial;
+	font-weight: bold;
+	background: #32CD32;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+
+}
+.edit:hover{
+	background: #5bd75b;
+}
